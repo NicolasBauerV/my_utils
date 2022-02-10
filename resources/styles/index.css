@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.todolists {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons_option {
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+h2 {
+    border-bottom: 2px solid black;
+}
+
+.list {
+    padding: 1em;
+    height: 50vh;
+    width: max-content;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 1.5px 5px black;
+    overflow: scroll;
+}
+
+.tag {
+    margin-top: 1em;
+    box-shadow: 0px 1px 3px black;
+    padding: .5em;
+    text-align: left;
+}
+
+#border_todo {
+    width: 3vw;
+    height: .5vh;
+    background-color: red;
+    margin-bottom: .3em;
+    border-radius: 10px;
+}
+
+#border_done {
+    width: 3vw;
+    height: .5vh;
+    background-color: green;
+    margin-bottom: .3em;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 1em;
+}
+
+.tag:hover {
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+}
